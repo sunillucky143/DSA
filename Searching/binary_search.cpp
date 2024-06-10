@@ -6,6 +6,9 @@ It uses to reduce the time complexity to O(log N)
 
 //Assume the array is sorted or input only the sorted array.
 
+#include <bits/stdc++.h>
+using namespace std;
+
 int binary_search(int arr[], int l, int h, int target){
   while(low <= high){
     int mid = low + (high - low)/2;
